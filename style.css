@@ -1,0 +1,239 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #dc1a44;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.scroll-down {
+  margin-top: 40px;
+}
+
+.scroll-down img {
+  height: auto;
+  cursor: pointer;
+}
+
+main {
+  background-color: #d2d2da;
+  padding: 50px 20px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.illustration img {
+  width: 650px;
+  height: auto;
+}
+
+.highlight {
+  color: #dc1a44;
+}
+
+.services-section {
+  background-color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.service-item {
+  text-align: center;
+  position: relative;
+}
+
+.service-circle {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 200px;
+  height: 150px;
+  background-color: #dc1a44;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.service-circle img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  position: relative; 
+  z-index: 1;
+}
+
+.service-item img {
+  position: relative;
+  z-index: 1;
+  width: 200%;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.service-item p {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.scroll-down {
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll-down img {
+  width: 65px;
+  margin-top: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.clients-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 20px;
+}
+
+.client-logos img {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 260px;
+  height: auto;
+}
+
+.scroll-down {
+  margin-top: 40px;
+}
+
+.scroll-down img {
+  width: 65px;
+  height: auto;
+  cursor: pointer;
+}
+
+.find-us-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.map {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.map img {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}
+
+.scroll-down {
+  margin-top: 40px;
+}
+
+.scroll-down img {
+  width: 65px;
+  height: auto;
+  cursor: pointer;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contact-section h2 {
+  margin-bottom: 80px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width of the container */
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #dc1a44; /* Same color as circles */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+textarea {
+  height: 150px; /* Adjust height as needed */
+}
+
+.send-btn {
+  background-color: #dc1a44; /* Same color as circles */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Match width of input fields */
+}
+
+.send-btn:hover {
+  background-color: #b00e35; /* Darker shade or hover effect */
+}
+
+.phone-number {
+  font-weight: bold;
+}
+
+p {
+  margin-top: 20px;
+}
